@@ -12,6 +12,7 @@
 body {
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b6b37973-4ac2-415f-b90d-b4a1677c15e8/dc1wxzv-17883532-4586-4de8-8e8f-08cb5bd7a21a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I2YjM3OTczLTRhYzItNDE1Zi1iOTBkLWI0YTE2NzdjMTVlOFwvZGMxd3h6di0xNzg4MzUzMi00NTg2LTRkZTgtOGU4Zi0wOGNiNWJkN2EyMWEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VURoflgFTinXnlqT_h6RhOIlJQcZIQSpGegMr0pzPLs);
   background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
