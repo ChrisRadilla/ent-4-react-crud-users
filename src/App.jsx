@@ -16,7 +16,10 @@ useEffect(() => {
 getUsers(path);
 }, [])
 
-console.log(users)
+useEffect(() => {
+  document.title = 'Crud User-CR';
+}, []);
+
 
 const handleOpen = () => {
   setIsOpen(true);

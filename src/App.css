@@ -15,8 +15,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
- 
-  
 }
 img{
   max-width: 100%;
@@ -66,11 +64,6 @@ button:hover{
   font-family: "Honk", system-ui;
   font-size: 50px
 }
-.footer{
-  font-size: 30px;
-  font-family: "Honk", system-ui;
-text-align: center;
-}
 .moreUser_btn{
   background-color: white;
   color: black;
@@ -80,4 +73,10 @@ text-align: center;
   background-color: aqua;
   color: black;
   border: black solid 2px;
+}
+.footer{
+  font-size: 25px;
+  font-family: "Honk", system-ui;
+text-align: center;
+margin-top: 100% ;
 }
