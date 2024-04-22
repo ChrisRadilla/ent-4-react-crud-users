@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Diplomata&family=Galada&family=Kalam:wght@300;400;700&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Galada&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Dancing+Script:wght@400..700&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Indie+Flower&family=Mr+Dafoe&family=Rubik+Doodle+Shadow&display=swap');
+
+.user{
+    border: 2px solid white;
+    padding: 20px;
+    background: linear-gradient(to bottom right, coral, teal, rgb(188 64 76));
+    border-radius: 5px;
+    width: 250px;
+    
+}
+
+.user_name{
+    font-family: "Galada", cursive;
+    font-family: "Honk", system-ui;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.user_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    font-family: "Kite One", sans-serif;
+    
+}
+.user_item{
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+}
+.user_item span:first-child{
+    color: gold;
+}
+.user_button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+   
+}
+.user_btn2:hover{
+   background-color: aqua;
+   color: black;
+   border: black solid 2px;
+}
+.user_btn:hover{
+    background-color: red;
+}
+.confirmation-modal{
+    margin-top: 10%;
+}
+p{
+    font-family: "Convergence", sans-serif;
+    color: black;
+    font-size: 18px;
+}
+p span{
+    color: red;
+}
+.btn_yes{
+    margin-right: 5%;
+    
+}
+.btn_yes:hover{
+    background-color: red;
+    color: black;
+}
+
+.btn_no:hover{
+    background-color: aqua;
+
+}
+.btn_dicision{
+margin-top: 10%;
+}

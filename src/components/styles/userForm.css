@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Galada&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.form_back {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
+    position: fixed;
+    top: 0;
+    left: 0; 
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Ensure form_back is on top */
+}
+
+.form_back.active {
+    display: flex;
+}
+
+.form {
+    position: relative;
+    height: 375px;
+    background: linear-gradient(to bottom right,rgb(188 64 76), teal, coral);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 10000; /* Ensure form is on top of form_back */
+}
+
+.form_item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: gold; 
+    font-family: "Kite One", sans-serif;
+}
+
+.form_close {
+    position: absolute;
+    padding: 2px 5px;
+    right: 10%;
+    top: 5%;
+    z-index: 10001; /* Ensure form_close is on top of form */
+}
+.form_close:hover{
+    color: black;
+    background-color: red;
+}
+/* Lower z-index for buttons outside the form */
+button:not(.form_button) {
+    z-index: 1;
+}
+.form_title{
+    font-family: "Honk", system-ui;  
+    font-size: 28px;
+}
+.form_button{
+    color: black;
+    border: black solid 2px;
+}
+.form_button:hover{
+    background-color: aqua;
+    color: black;
+    border: black solid 2px;
+}

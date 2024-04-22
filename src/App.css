@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Diplomata&family=Emblema+One&family=Galada&family=Honk&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Mynerve&family=Pacifico&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*===============*/
+/*======Reset======*/
+/*===============*/
+*,*::after, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b6b37973-4ac2-415f-b90d-b4a1677c15e8/dc1wxzv-17883532-4586-4de8-8e8f-08cb5bd7a21a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I2YjM3OTczLTRhYzItNDE1Zi1iOTBkLWI0YTE2NzdjMTVlOFwvZGMxd3h6di0xNzg4MzUzMi00NTg2LTRkZTgtOGU4Zi0wOGNiNWJkN2EyMWEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VURoflgFTinXnlqT_h6RhOIlJQcZIQSpGegMr0pzPLs);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+ 
+  
+}
+img{
+  max-width: 100%;
+  min-width: 100%;
+  display: inline-block;
+  object-fit: contain;
+}
+ul{
+  list-style: none;
+}
+input, button{
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-family: inherit;
+}
+button{
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: transform.5s;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: transform.5s;
+}
+
+/*===============*/
+/*------APP------*/
+/*===============*/
+
+.app_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.app_container{
+  display: flex; 
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.app_title{
+  font-family: "Honk", system-ui;
+  font-size: 50px
+}
+.footer{
+  font-size: 30px;
+  font-family: "Honk", system-ui;
+text-align: center;
+}
+.moreUser_btn{
+  background-color: white;
+  color: black;
+  border: black solid 2px;
+}
+.moreUser_btn:hover{
+  background-color: aqua;
+  color: black;
+  border: black solid 2px;
+}
